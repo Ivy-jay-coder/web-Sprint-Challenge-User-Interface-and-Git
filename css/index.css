@@ -16,8 +16,8 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
+	margin:0% ;
+	padding:0%;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -143,4 +143,13 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+button{
+    border-radius:5px;
+    height:30px;
+    padding:10px;
+
+}
+.Box 1{
+    background:teal;
 }
