@@ -28,6 +28,20 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 20px 2%;
+    font-size: 14px;
+    margin:0 5% 0 11%;
+}
 body {
 	line-height: 1;
 }
@@ -78,6 +92,18 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.GUAM{
+    width:45%;
+    border-bottom:1px black dashed;
+    margin-bottom: 15px;
+    margin-left:4%;
+    margin-right: 5px;
+}
+#parent{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 .top-content .text-container {
     width: 48%;
@@ -124,6 +150,35 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}#b1{
+    background-color: teal;
+}
+#b2{
+    background-color: gold;
+}
+#b3{
+    background-color: cadetblue;
+}
+#b4{
+    background-color: coral;
+}
+#b5{
+    background-color: crimson;
+}
+#b6{
+    background-color: forestgreen;
+}
+#b7{
+    background-color: darkorchid;
+}
+#b8{
+    background-color: hotpink;
+}
+#b9{
+    background-color: indigo;
+}
+#b10{
+    background-color: dodgerblue;
 }
 
 footer {
